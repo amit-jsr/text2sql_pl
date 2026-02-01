@@ -1,0 +1,22 @@
+fastapi
+uvicorn
+duckdb
+pandas
+pydantic
+requests
+python-dotenv
+numpy<2.0
+sqlparse
+
+# RAG / Embeddings
+chromadb
+sentence-transformers
+
+# UI
+chainlit
+
+# Optional: OpenAI backend
+openai
+
+# Optional: AWS Bedrock backend
+boto3

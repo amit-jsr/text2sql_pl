@@ -1,0 +1,20 @@
+How many trades per portfolio?
+Top 10 holdings by market value
+Show holdings for portfolio HoldCo 1
+Total market value by security type
+Largest trades by principal amount
+What is the total P&L (YTD) by portfolio?
+List all Buy trades for IBM
+Which portfolios have the most equity holdings?
+Show trades with quantity greater than 1,000,000
+What are the top 5 counterparties by trade count?
+What is the total quantity traded per security type?
+Show all trades for portfolio Redfield Accu-Fund
+Which securities have the highest P&L (MTD)?
+List all Sell trades with principal over $1 million
+What is the average trade price by security type?
+Show holdings where quantity is greater than 100,000
+How many trades were executed by each custodian?
+What are the top 5 portfolios by total market value?
+List all FX Forward trades
+Which securities appear in both holdings and trades?
