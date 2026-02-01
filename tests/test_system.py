@@ -11,7 +11,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from app.data.query_planner import plan_query
 from app.data.duckdb_client import DuckDBClient, DuckDBConfig
 from app.orchestrator.request_handler import is_greeting, process_query
-from app.orchestrator.safety import check_input_guardrails
+from app.orchestrator.guardrail import check_input_guardrails
 
 
 def test_guardrails():

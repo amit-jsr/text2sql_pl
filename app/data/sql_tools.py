@@ -30,7 +30,7 @@ RIGHT:  SELECT ... FROM ... GROUP BY ... LIMIT 10
 
 from dataclasses import dataclass
 from typing import Optional, Tuple
-from app.orchestrator.safety import assert_safe_sql
+from app.orchestrator.guardrail import assert_safe_sql
 
 @dataclass(frozen=True)
 class SQLResult:
