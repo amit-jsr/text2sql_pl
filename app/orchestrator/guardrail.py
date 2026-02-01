@@ -127,6 +127,7 @@ def check_input_guardrails(text: str) -> GuardrailResult:
         return GuardrailResult(is_safe=True)
 
 
+
 # =============================================================================
 # SQL SAFETY - Prevent destructive operations
 # =============================================================================

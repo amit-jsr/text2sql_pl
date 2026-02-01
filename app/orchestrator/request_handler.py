@@ -82,7 +82,7 @@ def process_query(
         QueryResponse with answer and optional SQL results
     """
     # Step 1: Check guardrails for harmful content
-    from app.orchestrator.safety import check_input_guardrails
+    from app.orchestrator.guardrail import check_input_guardrails
     
     guardrail_result = check_input_guardrails(question)
     if not guardrail_result.is_safe:
@@ -172,7 +172,7 @@ def process_query_stream(
         Dict with 'type' and 'content' keys
     """
     # Step 1: Check guardrails for harmful content
-    from app.orchestrator.safety import check_input_guardrails
+    from app.orchestrator.guardrail import check_input_guardrails
     
     guardrail_result = check_input_guardrails(question)
     if not guardrail_result.is_safe:
