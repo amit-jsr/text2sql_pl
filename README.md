@@ -53,3 +53,6 @@ Architecture: Chainlit UI → Input guardrails (safety.py) → Request handler �
 ## References
 - docs/architecture.png (optional diagram).
 - docs/questions.txt (sample prompts).
+
+## Author
+- Amit Jaiswar
