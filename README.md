@@ -1,6 +1,6 @@
-# Data Assistant — Text-to-SQL
+# AI Assistant — Text-to-SQL
 
-A lightweight chatbot that converts plain-English questions into SQL and returns results from the provided CSV datasets.
+A chatbot that converts plain-English questions into SQL and returns results from the provided CSV datasets.
 
 ## Quick start
 
@@ -19,9 +19,9 @@ A lightweight chatbot that converts plain-English questions into SQL and returns
 ## Core features
 
 - Natural language → SQL
-- View holdings and trades
+- System-generated, safe, and validated SQL queries
 - Aggregations (e.g., top holdings, trades per portfolio)
-- Conversation-aware follow-ups
+- Downloadable query and results
 
 ## Configuration
 
@@ -37,11 +37,11 @@ A lightweight chatbot that converts plain-English questions into SQL and returns
 ## Project Architecture
 
 - run.py — Chainlit entrypoint  
-- app/data — DuckDB client, query planner, templates  
+- app/data — DuckDB client, query planner  
 - app/llm — LLM adapter  
 - app/orchestrator — Request handler and safety checks
 
-Architecture: Chainlit UI → Input guardrails (safety.py) → Request handler → Query planner → DuckDB (CSV views)
+Architecture: Chainlit UI  → Request handler → Input guardrails → Query planner → DuckDB (CSV views)
 
 ## Example queries
 
